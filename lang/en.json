@@ -1,0 +1,27 @@
+{
+  "title": "Kevin Manca",
+  "bio": [
+    "⚠️ ",
+    "→ WorkInProgress ←",
+    "This is Kevin Manca personal Website"
+  ],
+  "job": "Student",
+  "about": "I'm a Computer Science student @Unimi",
+  "about-title": "About",
+  "contacts": "Contacts",
+  "edu": "Education",
+  "edu1": "Bachelor Degree in Computer Science",
+  "edu1_loc": "Unimi - Milan, Italy",
+  "edu1_date": "2021 - In progress",
+  "edu2": "High School Diploma",
+  "edu2_loc": "ITIS 'Othoca' Oristano - Sardinia, Italy",
+  "edu2_date": "2007 - 2012",
+  "interests": "Interests",
+  "interest1": "Computer Science",
+  "interest2": "Technology",
+  "interest3": "Motors",
+  "interest4": "Mechanic",
+  "skills": "Skills & Languages",
+  "interest-editor": "NeoVim",
+  "interest-devices": "Apple"
+}

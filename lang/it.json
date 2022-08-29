@@ -1,0 +1,27 @@
+{
+  "title": "Kevin Manca",
+  "bio": [
+    "⚠️ ",
+    "→ WorkInProgress ←",
+    "Questo è il sito web di Kevin Manca"
+  ],
+  "job": "Studente",
+  "about": "Sono uno studente di Informatica @Unimi",
+  "about-title": "Su di me",
+  "contacts": "Contatti",
+  "edu": "Educazione",
+  "edu1": "Laurea in Informatica",
+  "edu1_loc": "Unimi - Milano, Italia",
+  "edu1_date": "2021 - In corso",
+  "edu2": "Diploma di Scuola Superiore - Perito Tecnico Meccanico",
+  "edu2_loc": "ITIS 'Othoca' Oristano - Sardegna, Italia",
+  "edu2_date": "2007 - 2012",
+  "interests": "Interessi",
+  "interest1": "Informatica",
+  "interest2": "Technologia",
+  "interest3": "Motori",
+  "interest4": "Meccanica",
+  "skills": "Abilità & Linguaggi",
+  "interest-editor": "NeoVim",
+  "interest-devices": "Apple"
+}

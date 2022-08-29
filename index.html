@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Kevin Manca</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+</head>
+
+<body>
+  <div id="container">
+    <nav class="navbar bg-dark navbar-expand-md">
+      <div class="container-fluid">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+        </ul>
+        <ul class="dropdown navbar-nav ms-auto">
+          <a id="lang" class="nav-link bg-dark dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <img src="https://cdn.pixabay.com/photo/2021/09/20/22/15/translate-6641970_1280.png"
+              style="max-width:20px; border-radius: 4px;">
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end" style="background: #2c2c2c;">
+            <li><a class="link-secondary dropdown-item" onclick="setLocale('it')">Italiano</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="link-secondary dropdown-item" onclick="setLocale('en')">English</a></li>
+          </ul>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Top Section with photo, contacts and main info -->
+  <div class='row align-items-center' id='top'>
+    <div class='col' id='photo'>
+      <img src="assets/profile_pic.jpg">
+    </div>
+    <div class='col' id='info'>
+      <h1 id='name'>Kevin Manca</h1>
+      <h2 localization-key='job' style="color: #5c5c5c">Student</h2>
+    </div>
+    <div class="col-sm text-center">
+      <div id='about'>
+        <h3 class='section' localization-key='about-title'>About</h3>
+        <h4 localization-key='about'></h4>
+      </div>
+
+      <div id="contacts">
+        <h3 class='section' localization-key="contacts">Contacts</h3>
+        <div id="box">
+          <a href="https://linkedin.com/in/kevin-manca" style="margin: 10px;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+              <path fill="#0A66C2" d="M0 0h24v24H0z" />
+              <path
+                d="M18.335 18.339H15.67v-4.177c0-.996-.02-2.278-1.39-2.278-1.389 0-1.601 1.084-1.601 2.205v4.25h-2.666V9.75h2.56v1.17h.035c.358-.674 1.228-1.387 2.528-1.387 2.7 0 3.2 1.778 3.2 4.091v4.715zM7.003 8.575a1.546 1.546 0 0 1-1.548-1.549 1.548 1.548 0 1 1 1.547 1.549zm1.336 9.764H5.666V9.75H8.34v8.589zM19.67 3H4.329C3.593 3 3 3.58 3 4.297v15.406C3 20.42 3.594 21 4.328 21h15.338C20.4 21 21 20.42 21 19.703V4.297C21 3.58 20.4 3 19.666 3h.003z" />
+            </svg>
+          </a>
+          <a href="https://t.me/ikevinm" style="margin: 10px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16">
+              <path fill="#0391DD"
+                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z" />
+            </svg>
+          </a>
+          <a href="https://github.com/kevinm6" style="margin: 10px;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+              <path fill="#1c1c1c" d="M0 0h24v24H0z" />
+              <path fill="#E6EDF3"
+                d="M12 2C6.475 2 2 6.475 2 12a9.994 9.994 0 0 0 6.838 9.488c.5.087.687-.213.687-.476 0-.237-.013-1.024-.013-1.862-2.512.463-3.162-.612-3.362-1.175-.113-.288-.6-1.175-1.025-1.413-.35-.187-.85-.65-.013-.662.788-.013 1.35.725 1.538 1.025.9 1.512 2.338 1.087 2.912.825.088-.65.35-1.087.638-1.337-2.225-.25-4.55-1.113-4.55-4.938 0-1.088.387-1.987 1.025-2.688-.1-.25-.45-1.275.1-2.65 0 0 .837-.262 2.75 1.026a9.28 9.28 0 0 1 2.5-.338c.85 0 1.7.112 2.5.337 1.912-1.3 2.75-1.024 2.75-1.024.55 1.375.2 2.4.1 2.65.637.7 1.025 1.587 1.025 2.687 0 3.838-2.337 4.688-4.562 4.938.362.312.675.912.675 1.85 0 1.337-.013 2.412-.013 2.75 0 .262.188.574.688.474A10.016 10.016 0 0 0 22 12c0-5.525-4.475-10-10-10z" />
+            </svg></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ############################ -->
+
+  <div class='row' id='resume'>
+    <div class="row-cols">
+
+      <!-- Education section -->
+      <div class="row" id="edu">
+        <h3 class='section' localization-key="edu">Education</h3>
+        <div class="col">
+          <b localization-key="edu1"></b><br>
+          <small localization-key="edu1_loc"></small><br>
+          <i localization-key="edu1_date" style="font-size: 14px; color: #cf3011;"></i>
+        </div>
+
+        <div class="col" style="font-size: 20px; border: dashed 1px #2c2c2c; border-radius: 6px;">
+          <b localization-key="edu2" style="font-size: 24px;"></b><br>
+          <small localization-key="edu2_loc"></small><br>
+          <small localization-key="edu2_date" style="font-size: 14px;"></small>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills section -->
+    <div class="container text-center" id="skills">
+      <h3 class='section' localization-key="skills"></h3>
+      <div class="row" id='prog-langs'></div>
+
+      <hr style="color: #4c4c4c; border-style: dashed; margin: 5px;">
+
+      <h3 class='section'>Frameworks</h3>
+      <div class="row" id="known-frameworks"></div>
+    </div>
+
+    <!-- Interests section -->
+    <div class="container text-center" id="interests">
+      <h3 class='section' localization-key="interests">Interests</h3>
+      <div class="row align-items-center">
+        <div class="col-flex" style="font-size: 24px;">
+          <span localization-key="interest1"></span>
+        </div>
+        <div class="col">
+          <span localization-key="interest2"></span>
+        </div>
+        <div class="col">
+          <span localization-key="interest3"></span>
+        </div>
+        <div class="col">
+          <span localization-key="interest4"></span>
+        </div>
+        <br><br>
+        <br><br>
+      </div>
+      <hr style="color: #4c4c4c; border-style: dashed; margin: 5px;">
+      <div class="row align-items-center" style="font-size: 18px;">
+        <div class="col">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/neovim/neovim-original.svg"
+            style="max-width: 20px;" />
+          <br>
+          <a localization-key="interest-editor" href="https://neovim.io"></a>
+        </div>
+        <div class="col">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apple/apple-original.svg"
+            style="max-width: 20px; fill-color: white;" />
+          <br>
+          <a localization-key="interest-devices"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src='js/script.js'></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    let storedLang = localStorage.getItem('lang');
+    if (storedLang == null) {
+      setLocale('en');
+    } else {
+      setLocale(storedLang);
+    }
+  });
+
+  const progLangs = document.getElementById('prog-langs');
+
+  fetch('data/knownLangs.json')
+    .then(res => res.json())
+    .then(languages => {
+      for (let l in languages) {
+        progLangs.innerHTML += `
+        <div class="col">
+        <img style="max-width: 30px;" src=${languages[l].icon}>
+        <br>
+        <a href=${languages[l].url}><i>${l}</i></a>
+        </div>
+        `;
+      }
+    });
+
+  const frameworks = document.getElementById('known-frameworks');
+  fetch('data/knownFrameworks.json')
+    .then(res => res.json())
+    .then(languages => {
+      for (let l in languages) {
+        frameworks.innerHTML += `
+        <div class="col">
+        <img style="max-width: 30px;" src=${languages[l].icon}>
+        <br>
+        <a href=${languages[l].url}><i>${l}</i></a>
+        </div>
+        `;
+      }
+    });
+</script>
+
+</html>

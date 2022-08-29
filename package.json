@@ -1,0 +1,15 @@
+{
+  "root": true,
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": false
+    }
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "scripts": {
+    "test": "browser-sync start --server --files '*/*' 'index.html'"
+  }
+}

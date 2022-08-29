@@ -1,0 +1,38 @@
+{
+  "Java": {
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
+    "url": "http://oracle.com/java/"
+  },
+  "Python": {
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+    "url": "https://python.org"
+  },
+  "Go": {
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg",
+    "url": "https://golang.org"
+  },
+  "JavaScript": {
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+    "url": "https://ecma-international.org/publications-and-standards/standards/ecma-262/"
+  },
+  "Lua": {
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/lua/lua-original.svg",
+    "url": "https://lua.org"
+  },
+  "Erlang": {
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/erlang/erlang-original.svg",
+    "url": "https://erlang.org"
+  },
+  "OCaML": {
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ocaml/ocaml-original.svg",
+    "url": "https://ocaml.org"
+  },
+  "Scala": {
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scala/scala-original.svg",
+    "url": "https://www.scala-lang.org/"
+  },
+  "Swift v4.x": {
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg",
+    "url": "https://www.swift.org/"
+  }
+}
