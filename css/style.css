@@ -74,7 +74,7 @@ body { font-size: 1em;}
   perspective:1200px;
   perspective-origin:50% 50%;
 }
-.pyramid3d {
+.pyramid3d:hover {
   position:relative;
   width:150px;
   height:150px;
